@@ -1,0 +1,64 @@
+/* -----------------Main line----------------- */
+.middle{
+    margin: 2%;
+}
+/* -----------------T-head----------------- */
+.th_1{
+    border-radius: 7px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+.thead{
+    display: flex;
+    align-items: center;
+}
+
+.h_1{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f6f5efb3;
+    
+
+}
+.h_2{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f6f5efb3;
+
+    
+}
+.h_3{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    background:  #f6f5efb3;
+
+}
+.tbody{
+    margin: 1%;
+    border: 1px solid #d5d5d5;
+    background: #f6f5efb3;
+    border-radius: 7px;
+    display: flex;
+    height: 9vh;
+    align-items: center;
+    justify-content:space-around;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+.table_input{
+    height: 4.5vh;
+    width: 25vh;
+}
+.table_select{
+    height: 4.5vh;
+    width: 25vh;
+}
+
+

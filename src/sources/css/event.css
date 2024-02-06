@@ -1,0 +1,26 @@
+#hoverBtn{
+    background-color:#f6f5efb3;
+}
+#hoverBtn:hover{
+    background-color:#f3f0e1
+}
+.page_itms{
+    background-color:#f6f5efb3
+}
+.page_itms:hover{
+    background-color:#f3f0e1
+}
+
+.btn_salelist, .btn_delete{
+    background-color: #f6f5efb3;
+}
+
+.btn_salelist:hover, .btn_delete:hover{
+    background-color:#f3f0e1
+}
+.hoverBtn_white{
+    background-color: white;
+}
+.hoverBtn_white:hover{
+    background-color: #f3f0e1;
+}

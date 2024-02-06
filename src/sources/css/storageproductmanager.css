@@ -1,0 +1,110 @@
+/* -----------------Main line----------------- */
+.middle{
+    margin: 2%;
+}
+table{
+    width: 100%;
+}
+/* -----------------T-head----------------- */
+.th_1{
+    
+    border-radius: 7px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+
+.btn-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.head{
+    width: 100%;
+}
+.h_1{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f6f5efb3;
+}
+.h_2,.h_3,.h_4,.h_5{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f6f5efb3;
+
+    
+}
+.h_6{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    background:  #f6f5efb3;
+
+}
+.h_select{
+    border: none;
+    width: 99%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f6f5efb3;
+}
+/* -----------------btn(+버튼)----------------- */
+
+.btn_3,.btn_4{
+    border: 1px solid #d5d5d5;
+    width: 8vh;
+    height: 5vh;
+    border-radius: 7px;
+    background: #f6f5efb3;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+
+/* -----------------T-body----------------- */
+.tbody{
+    margin-top: 1%;
+    border: 1px solid #d5d5d5;
+    background: #f6f5efb3;
+    border-radius: 7px;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content:space-around;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+.body{
+    width: 100%;
+}
+.b_0,.b_1,.b_2.b_3,.b_4,.b_5{
+    padding: 5px;
+
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 7px 0px 0px 7px;
+    background-color: #f6f5efb3;
+}
+.b_1{
+    padding: 5px;
+    width: 99%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f6f5efb3;
+}
+.b_2{
+    padding: 5px;
+    width: 99%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0px 7px 7px 0px;
+    background-color: #f6f5efb3;
+}
+
+
+
+

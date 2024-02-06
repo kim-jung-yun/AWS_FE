@@ -1,0 +1,24 @@
+.th_1{
+    border-radius: 7px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+.btn_3,.btn_4{
+    border: 1px solid #d5d5d5;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 7px;
+    background: #f6f5efb3;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+.tbody{
+    margin-top: 1%;
+    border: 1px solid #d5d5d5;
+    background: #f2f1ecb3;
+    border-radius: 7px;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content:space-around;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}

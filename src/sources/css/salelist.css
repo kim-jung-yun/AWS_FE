@@ -1,0 +1,70 @@
+.outline{
+    text-align: center;
+    opacity: 0.9;
+    box-shadow: 5px 5px 20px 2px rgb(32, 49, 32);
+}
+.salelist{
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    
+}
+.updatebtn{
+    border: none;
+    background-color: rgb(234, 234, 234);
+    font-weight:bold;
+}
+.deletebtn{
+    border: 1px black;
+    background-color:rgb(234, 234, 234);
+}
+.p_id{
+    width: 80px;
+    
+}
+.p_name{
+    width: 700px;
+}
+.delete{
+    width: 100px;
+}
+.h_number{
+    width: 80px;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 3px 3px 3px 3px;
+}
+.h_p_name{
+    width: 700px;
+    font-size: 16px;
+    font-weight:bold;
+    
+}
+.h_delete{
+    width: 100px;
+    font-size: 16px;
+}
+.salelist_data_cell{
+    width: 100px;
+    border: 0px solid rgb(1, 107, 1);
+    padding: 5px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgb(183, 183, 183);
+    
+}
+#salelist_list_data_row{
+    border: 2px color green;
+    height: 40px;
+}
+.listtable{
+    padding: 50px 50px 50px 50px;
+}
+.flex0{
+    display: flex ;
+    padding: 2px 2px 2px 2px;
+}
+.flex1{
+    display:flex ;
+    padding: 2px 2px 2px 2px;
+}
+

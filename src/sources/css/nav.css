@@ -1,0 +1,60 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.low-opacity-bg-image{
+    --bg-image: url("../image/logo1.png");
+    --bg-image-opacity:18%;
+    width: 100%;
+    position: relative;
+    isolation: isolate;
+}
+.low-opacity-bg-image::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-image: var(--bg-image);
+    opacity: var(--bg-image-opacity);
+    background-position: 190% 0%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: #343e36;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 70px);
+    transition: all 0.375s;
+}
+
+.content{
+    padding-top: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu_name_itm{
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    margin-left: 40%;
+}
+.menu_name_itms{
+    margin: 10px 0px;
+}
+.menu_item_color{
+    color: white;
+}
+.menu_item_color:hover{
+    color: #b3b2b2;
+}
+.toggle_icon{
+    background-color: #d5d5d5;
+}
+.toggle_icon:hover{
+    background-color: white;
+}

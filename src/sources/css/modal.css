@@ -1,0 +1,110 @@
+.modal-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.madal-main{
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px;
+    width: 32%;
+    border: 1px solid rgba(106, 136, 30, 0.519);
+}
+.madal-line{
+    padding: 10px;
+}
+
+.btn {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #ccc;
+    border: 1px solid rgba(120, 133, 85, 0.519);
+    font-size: 13px;
+}
+
+.btn-submit,.btn-cancel{
+    background-color: #f6f5efb3;
+}
+.modal-header {
+
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.modal-content {
+    margin-bottom: 3rem;
+}
+.madal-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* -----------------T-head----------------- */
+.modal-th_1{
+    
+    border-radius: 7px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 10px 15px -3px rgb(0,0,0,0.1);
+}
+.modal-thead{
+    display: flex;
+    align-items: center;
+}
+.modal-head{
+    width: 100%;
+}
+.modal-h_1{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f6f5efb3;
+}
+.modal-h_2,.modal-h_3{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f6f5efb3;  
+}
+.modal-h4{
+    margin: 0%;
+    border: none;
+    padding: 5px;
+    width: 99%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f6f5efb3;  
+}
+
+
+.modal-h_6{
+    padding: 5px;
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    background:  #f6f5efb3;
+
+}
+.modal-h_select{
+    border: none;
+    width: 99%;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f6f5efb3;
+}

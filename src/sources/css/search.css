@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input:focus{
+    outline: none;
+}
+#search_inn:-webkit-autofill,
+#search_inn:-webkit-autofill:hover,
+#search_inn:-webkit-autofill:focus,
+#search_inn:-webkit-autofill:active {
+	-webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #343e36 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+header{
+    background-color: #343e36;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_img{
+    width: 70px;
+}
+
+#logo_title{
+    color: white;
+    font-size: 24px;
+}
+
+.header_inn{
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    position: relative;
+    width: 40%;
+    height: 2.5em;
+}
+
+#search_inn{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: #343e36;
+    border: 1px solid white;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 3.5px;
+    font-family: 'Pretendard-Regular';
+    padding: 0px 20px;
+}
+
+#search_inn:focus{
+    border: 2px solid #749240;
+}
+
+.icon{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.icon.magnifier{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 8px;
+    top: 3px;
+}
+
+.icon:hover{
+    color: #51e3d4;
+}
